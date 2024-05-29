@@ -1,0 +1,13 @@
+.sign-in{
+    text-align: center;
+    margin-top: 40px;
+    font-size: larger;
+}
+.modal-content{
+    background-color: rgb(166, 223, 215);
+}
+
+.modal-body{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
