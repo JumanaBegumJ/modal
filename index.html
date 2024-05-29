@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MODAL</h1>
+    <br>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#open">
+    Click to Login
+</button>
+
+<div class="modal fade" id="open">
+    <div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+    <div class="modal-header">
+        <h1 class="modal-title">HELLO USER!</h1>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+    <div class="modal-body">
+       <!----<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, repellendus possimus minima veritatis commodi quis ratione impedit, modi saepe doloremque at 
+            aspernatur aliquam fugiat expedita animi nobis quae eveniet similique!</p> -->
+
+<form action="" method="post">
+    <div class="uname">
+        <label for="name">Username:</label><br>
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <br>
+        <br><br>
+        <label for="pwd">Password:</label><br>
+        <input type="text" name="pwd" placeholder="Enter your Password" required>
+<br>
+           <div class="sign-in">
+        <input type="submit" value="Log-in"> </div>
+    </div>
+</form>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">close</button>
+    </div>
+</div>
+</div>
+</div>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
